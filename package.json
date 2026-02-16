@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "sda": "node --experimental-strip-types --no-warnings --watch sda/main.ts",
+    "clean": "rm -rf .sda-cache && rm -rf .journalism-cache && rm -rf .tmp"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^7.0.1",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.52.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "svelte": "^5.51.2",
+    "svelte-check": "^4.4.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@nshiab/journalism": "npm:@jsr/nshiab__journalism@^2.2.5",
+    "@nshiab/simple-data-analysis": "npm:@jsr/nshiab__simple-data-analysis@^5.11.3",
+    "@observablehq/plot": "^0.6.17",
+    "highlight.js": "^11.11.1"
+  }
+}

@@ -1,0 +1,4 @@
+[
+	{"city":"Toronto","x":"decade","y":"meanTemp","slope":0.0203,"yIntercept":-30.7911,"r2":0.9261},
+	{"city":"Montreal","x":"decade","y":"meanTemp","slope":0.0196,"yIntercept":-31.3115,"r2":0.921}
+]
