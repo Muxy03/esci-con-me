@@ -1,5 +1,5 @@
 <script>
-  import { asset } from "$app/paths";
+  import { asset, resolve } from "$app/paths";
   let { children } = $props();
 </script>
 
@@ -10,7 +10,7 @@
 
 <header>
   <nav>
-    <a href="/">Home</a>
+    <a href="{resolve("/")}">Home</a>
     <a href="https://github.com/nshiab/simple-data-analysis" target="_blank">About</a>
   </nav>
   <h1>My new project</h1>
