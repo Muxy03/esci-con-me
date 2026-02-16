@@ -1,17 +1,16 @@
 <script>
-  import { base } from "$app/paths";
-let { children } = $props();
+  import { asset } from "$app/paths";
+  let { children } = $props();
 </script>
 
 <svelte:head>
-  <link rel="stylesheet" href={`${base}/style.css`} />
-<link rel="stylesheet" href={`${base}/highlight-theme.css`} />
-  
+  <link rel="stylesheet" href={`${asset("/style.css")}`} />
+  <link rel="stylesheet" href={`${asset("/highlight-theme.css")}`} />
 </svelte:head>
 
 <header>
   <nav>
-    <a href={`${base}/`}>Home</a>
+    <a href="/">Home</a>
     <a href="https://github.com/nshiab/simple-data-analysis" target="_blank">About</a>
   </nav>
   <h1>My new project</h1>
