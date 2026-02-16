@@ -15,4 +15,4 @@ When working on your project, you can use the following commands:
 - `npm run dev` will start a local server and watch all `src/*` files and their dependencies. Everytime you'll save some changes or the data is reprocessed, the content will be updated.
 
 By opening two terminals each running one of the above commands, you'll be able to work on your project with a live preview of your content and data.
-  
+  # esci-con-me
