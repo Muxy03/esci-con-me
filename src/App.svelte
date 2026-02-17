@@ -12,9 +12,9 @@
   let city = $state("");
 
   let imgs = [
-    { name: "Firenze", img: "./Firenze.png" },
-    { name: "Pisa", img: "./Pisa.png" },
-    { name: "Siena", img: "./Siena.png" },
+    { name: "Firenze", img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jonesaroundtheworld.com%2Fwp-content%2Fuploads%2F2021%2F02%2Fpiazza-della-signoria.jpg&f=1&nofb=1&ipt=45904f8ba047f5530500aa64bc49ea09b3c8a6a543d24e0ae76015110b930291" },
+    { name: "Pisa", img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.italia.it%2Fcontent%2Fdam%2Ftdh%2Fit%2Finterests%2Ftoscana%2Fpisa%2Fpisa-e-piazza-dei-miracoli%2Fmedia%2F20210310174409-shutterstock-353262566.jpg.transform%2Fw_1600%2Fh_1000%2Fimage.jpeg&f=1&nofb=1&ipt=4b06f7c2441c8f1e0eee2d7d3f60250eddec98a0a2d42ee6de18ad0379fa43a1" },
+    { name: "Siena", img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F7d%2Fa9%2F47%2F7da947d79c024fed4433cfb1b024c1a5.jpg&f=1&nofb=1&ipt=11122b9cb9d979e2ceb2b76c238671450c84d63a61212f6472801dc63bfe7edf" },
   ];
 
   onMount(() => {
