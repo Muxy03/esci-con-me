@@ -12,9 +12,9 @@
   let city = $state("");
 
   let imgs = [
-    { name: "Firenze", img: "/Firenze.png" },
-    { name: "Pisa", img: "/Pisa.png" },
-    { name: "Siena", img: "/Siena.png" },
+    { name: "Firenze", img: "./public/Firenze.png" },
+    { name: "Pisa", img: "./public/Pisa.png" },
+    { name: "Siena", img: "./public/Siena.png" },
   ];
 
   onMount(() => {
