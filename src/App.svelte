@@ -442,4 +442,51 @@
       padding: 1rem 2rem;
     }
   }
+
+  @media (max-width: 600px) {
+    .options-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .options-container img {
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+    }
+
+    .selector {
+      height: auto;
+      gap: 2em;
+      padding: 2rem 1.5rem;
+    }
+
+    .selector p {
+      font-size: 1.4rem;
+    }
+
+    .buttons {
+      flex-direction: column;
+      height: auto;
+      gap: 1rem;
+    }
+
+    .btn {
+      font-size: 1.1rem;
+      padding: 1rem 2.5rem;
+      width: 100%;
+    }
+
+    .question-box {
+      padding: 1.5rem 1rem;
+    }
+
+    .celebration-title {
+      font-size: clamp(2rem, 6vw, 4rem);
+    }
+
+    .celebration-text {
+      font-size: 1.4rem;
+    }
+  }
 </style>
