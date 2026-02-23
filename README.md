@@ -21,4 +21,4 @@ npm run deploy
 ```
 ---
 
-Creato con ❤️ e Svelte
+Creato con ❤️ e Svelte  5
